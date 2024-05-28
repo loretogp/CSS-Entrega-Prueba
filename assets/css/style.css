@@ -73,6 +73,8 @@ main{
 footer{
     background-color: var(--fondo_footer);
     grid-area: foot;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 .foot_escritorio{
@@ -174,6 +176,7 @@ article button:hover{
     }
     footer{
         padding-top: 20px;
+        flex-direction: column-reverse;
     }
     .titulo_categoria{
         background-color: var(--fondo_barra);
@@ -199,6 +202,7 @@ article button:hover{
     footer{
         font-size: medium;
         padding-top: 0px;
+        flex-direction: column;
     }
     .barras{
         display: none;
