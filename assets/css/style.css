@@ -76,6 +76,7 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 10px;
 }
 .foot_escritorio{
     display: none;
@@ -175,7 +176,7 @@ article button:hover{
         font-size: medium;
     }
     footer{
-        padding-top: 20px;
+        padding-top: 15px;
         flex-direction: column-reverse;
     }
     .titulo_categoria{
