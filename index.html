@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MTG Cards - Prueba CSS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cc2c61322b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1><i class="fa-brands fa-wizards-of-the-coast"></i> MTG Cards</h1>
+        </div>
+        <div class="barras"><h1><i class="fa-solid fa-bars"></i></h1></div>
+        <div class="listado">
+            <div class="tipo">
+                <a class="nav-link" href="#tierras_id"><h3>Tierras</h3></a>
+            </div>
+            <div class="tipo">
+                <a class="nav-link" href="#criaturas_id"><h3>Criaturas</h3></a>
+            </div>
+            <div class="tipo">
+                <a class="nav-link" href="#planeswalker_id"><h3>Planeswalker</h3></a>
+            </div>
+            <div class="tipo">
+                <a class="nav-link" href="#planeswalker_jpn_id"><h3>Planeswalker JPN</h3></a>
+            </div>
+        </div>
+        <div class="contenedor_logo">
+            <img src="assets/img/images.jpeg" alt="logo" class="img_logo" />
+        </div>
+    </header>
+    <nav>
+        <select class="opciones_filtro" name="select">
+          <option value="Precio">Precio</option>
+          <option value="Reputacion">Reputación</option>
+        </select>
+    </nav>
+    <main>
+        <div class="contenedor_tema">
+            <div class="titulo_categoria" id="tierras_id">
+                <h1>Tierras</h1>
+            </div>
+            <div class="grid-container">
+                <article>
+                    <img src="assets/img/lands/Wasteland.jpg" alt="Wasteland" class="imagenes" />
+                    <div>
+                        <h3>Wasteland</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/lands/best-rainbow-lands-mtg.jpg" alt="Cascading Cataracts" class="imagenes" />
+                    <div>
+                        <h3>Cascading Cataracts</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/lands/pip-319-island.jpg" alt="Isla" class="imagenes" />
+                    <div>
+                        <h3>Isla</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/lands/retrained-legendary-basic-lands.jpg" alt="Prairie" class="imagenes" />
+                    <div>
+                        <h3>Prairie</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/lands/woe-island-0263.jpg" alt="Isla 02" class="imagenes" />
+                    <div>
+                        <h3>Isla Basica 0263</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="contenedor_tema">
+            <div class="titulo_categoria" id="criaturas_id">
+                <h1>Criaturas</h1>
+            </div>
+            <div class="grid-container">
+                <article>
+                    <img src="assets/img/creatures/mtgtop25-memnite-12.jpg" alt="Memnite" class="imagenes" />
+                    <div>
+                        <h3>Memnite</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/creatures/esper-sentinel.jpg" alt="Esper Sentinel" class="imagenes" />
+                    <div>
+                        <h3>Esper Sentinel</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/creatures/Godzilla.jpg" alt="Godzilla" class="imagenes" />
+                    <div>
+                        <h3>Godzilla</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/creatures/griselbrand.jpg" alt="griselbrand" class="imagenes" />
+                    <div>
+                        <h3>Griselbrand</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/creatures/resplendent_angel.jpg" alt="Resplendet Angel" class="imagenes" />
+                    <div>
+                        <h3>Resplendet Angel</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="contenedor_tema">
+            <div class="titulo_categoria" id="planeswalker_id">
+                <h1>Planeswalker</h1>
+            </div>
+            <div class="grid-container">
+                <article>
+                    <img src="assets/img/planeswalker/multicolor-planeswalkers-mtg.jpg" alt="The Royal Scions" class="imagenes" />
+                    <div>
+                        <h3>The Royal Scions</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/planeswalker/liliana.jpg" alt="Liliana of the Veil" class="imagenes" />
+                    <div>
+                        <h3>Liliana of the Veil</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/planeswalker/jace-the-mind-sculptor.jpg" alt="Jace, the mind sculptor" class="imagenes" />
+                    <div>
+                        <h3>Jace, the mind sculptor</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/planeswalker/GideonAllyOfZendikar.jpg" alt="Gideon, Ally of Zendikar" class="imagenes" />
+                    <div>
+                        <h3>Gideon, Ally of Zendikar</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/planeswalker/Urza-Planeswalker.jpg" alt="Urza Planeswalker" class="imagenes" />
+                    <div>
+                        <h3>Urza Planeswalker</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="contenedor_tema">
+            <div class="titulo_categoria" id="planeswalker_jpn_id">
+                <h1>Planeswalker, Japanese Art</h1>
+            </div>
+            <div class="grid-container">
+                <article>
+                    <img src="assets/img/planeswalker_jpn/ashok_jpn.jpg" alt="Ashok Jpn" class="imagenes" />
+                    <div>
+                        <h3>Ashok Jpn</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/planeswalker_jpn/nahiri_jpn.jpg" alt="Nahiri jpn" class="imagenes" />
+                    <div>
+                        <h3>Nahiri jpn</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/planeswalker_jpn/Nissa_jpn.png" alt="Nissa jpn" class="imagenes" />
+                    <div>
+                        <h3>Nissa jpn</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/planeswalker_jpn/sorin_jpn.png" alt="Sorin jpn" class="imagenes" />
+                    <div>
+                        <h3>Sorin jpn</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+                <article class="oculto">
+                    <img src="assets/img/planeswalker_jpn/ugin_jpn.png" alt="Ugin jpn" class="imagenes" />
+                    <div>
+                        <h3>Ugin jpn</h3>
+                        <p>$1.000</p>
+                        <button><i class="fa-solid fa-cart-plus"></i> Comprar</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot_escritorio">
+            <p> Pronto <i class="fa-brands fa-facebook"></i> - <a class="nav-link" href="https://www.instagram.com/loretogp4/" target="_blank">Visita mi Instagram <i class="fa-brands fa-square-instagram"></i></a> - <a class="nav-link" href="https://github.com/loretogp" target="_blank">Visita mi repositorio <i class="fa-brands fa-square-github"></i></a></p>
+        </div>
+        <div class="foot_small">
+            <p><i class="fa-brands fa-facebook"></i> - <a class="nav-link" href="https://www.instagram.com/loretogp4/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a> - <a class="nav-link" href="https://github.com/loretogp" target="_blank"><i class="fa-brands fa-square-github"></i></a></p>
+        </div>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
